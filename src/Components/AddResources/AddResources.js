@@ -3,7 +3,7 @@ import Link from '@mui/material/Link';
 import { useNavigate } from "react-router-dom";
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
-import './createcomp.css';
+
 import AddCircleIcon from '@mui/icons-material/AddCircle';
 
 import { Button } from '@material-ui/core';
@@ -57,7 +57,7 @@ function AddResources() {
                     </Grid>
                 </Grid>
             </div>
-            <div className='row ritty'>
+            <div className='row alignrightBottom'>
                 <Link onClick={handleClick}>
                     <AddCircleIcon style={{ fontSize: "47px" }} />
                 </Link>

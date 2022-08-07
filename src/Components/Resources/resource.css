@@ -1,0 +1,23 @@
+.linkStyle {
+    margin: 2rem;
+    text-decoration: none;
+    color: blue;
+    cursor: pointer;
+}
+
+.centered {
+    display: flex;
+  
+    align-items: center;
+    justify-content: center;
+}
+
+.resDesign {
+    
+    border-radius: 30px;
+    border-color: aliceblue;
+    color: azure;
+    font-weight: bolder;
+    /* background-color: brown;not working */
+    height:5rem;
+}
